@@ -1,4 +1,5 @@
 yaml
+
 name: Daily Stock Screen
 
 on:
