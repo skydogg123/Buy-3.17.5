@@ -1,6 +1,6 @@
 yaml
 
-name: Daily Stock Screen
+name: main
 
 on:
   schedule:
