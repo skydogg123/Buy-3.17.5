@@ -186,7 +186,7 @@ def build_report(results):
     ok = [r for r in results if not r.get("error")]
 
     lines = []
-    lines.append(f"Stock screen run: {datetime.now(timezone.utc).isoformat()}")
+    lines.append(f"Buy 3,17,5 Stock screen run: {datetime.now(timezone.utc).isoformat()}")
     lines.append(f"(MACD: fast={MACD_FAST}, slow={MACD_SLOW}, signal={MACD_SIGNAL})")
     if fired:
         lines.append(f"\n{len(fired)} of {len(ok)} tickers FIRED today:\n")
